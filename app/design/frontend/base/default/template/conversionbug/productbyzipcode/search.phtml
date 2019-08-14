@@ -1,0 +1,20 @@
+<div class="block block-product-by-zipcode">
+    <div class="block-title">
+        <strong><span><?php echo $this->__('Search Product By Zipcode') ?></span></strong>
+    </div>
+    <form action="<?php echo $this->getFormActionUrl() ?>" method="post" id="product-by-zipcode">
+        <div class="block-content">
+            <div class="input-box">
+               <input type="text" name="zipcode" id="zipcode" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Enter Zipcode')) ?>" class="input-text required-entry validate-postcode" />
+            </div>
+            <div class="actions">
+                <button type="submit" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Search Product')) ?>" class="button"><span><span><?php echo $this->__('Search Product') ?></span></span></button>
+            </div>
+        </div>
+    </form>
+    <script type="text/javascript">
+    //<![CDATA[
+        var productbyzipcode = new VarienForm('product-by-zipcode');
+    //]]>
+    </script>
+</div>
