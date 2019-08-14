@@ -3,11 +3,10 @@
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
-    "description": "This extension enables the visitors to see only those products which are available for a particular location
-",
+    "description": "This extension enables the visitors to see only those products which are available for a particular location",
     "authors": [
     {
-        "name": "shiv kumar singh",
+        "name": "shivkumar singh",
         "email": "shivam.kumar@conversionbug.com"
     }
 ],

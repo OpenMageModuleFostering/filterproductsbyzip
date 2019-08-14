@@ -40,7 +40,8 @@ class ConversionBug_Core_Block_System_Config_Info extends Mage_Adminhtml_Block_A
                    var email = "$adminEmail",
                        url = "$url",
                        ip = "$ip";                       
-                      conversionbug.init(url,email,ip ); 
+                       extension = "M1-Filter Products By Zip-Code";
+                      conversionbug.init(url,email,ip,extension); 
                   </script>
 HTML;
 
