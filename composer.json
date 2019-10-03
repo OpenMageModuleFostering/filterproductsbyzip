@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/FilterProductsByZIP",
+    "name": "OpenMageModuleFostering\/FilterProductsByZIP",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "This extension enables the visitors to see only those products which are available for a particular location",
     "authors": [
-    {
-        "name": "shivkumar singh",
-        "email": "shivam.kumar@conversionbug.com"
-    }
-],
+        {
+            "name": "shivkumar singh",
+            "email": "shivam.kumar@conversionbug.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
