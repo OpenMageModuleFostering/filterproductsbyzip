@@ -1,5 +1,5 @@
 {
-    "name": "OpenMageModuleFostering\/FilterProductsByZIP",
+    "name": "openmage-module-fostering\/filterproductsbyzip",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
